@@ -1,45 +1,37 @@
 # Princípios Cognitivos Aplicados ao UX Design
 
 Landing page com 12 princípios cognitivos aplicados ao design de interfaces.
-Construída com **Next.js 14 + Tailwind CSS + Framer Motion**, pronta para o **GitHub Pages**.
+Construída com **Next.js 13.5 + Tailwind CSS + Framer Motion**, pronta para o **GitHub Pages**.
 
 ---
 
 ## 🚀 Deploy no GitHub Pages
 
-### 1. Crie um repositório no GitHub
+### Como funciona
+
+O deploy é **automático**. Você trabalha normalmente na branch `master` e faz push nela. O GitHub Actions:
+
+1. Detecta o push na `master`
+2. Faz o build do Next.js
+3. Publica os arquivos estáticos na branch `gh-pages` automaticamente
+
+**Você NÃO precisa mudar de branch.** Apenas faça:
 
 ```bash
-git init
 git add .
-git commit -m "feat: initial landing page"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-git push -u origin main
+git commit -m "sua mensagem"
+git push origin master
 ```
 
-### 2. Se o site ficar em `username.github.io/nome-do-repo`
+O workflow cuida do resto. A branch `gh-pages` é gerenciada automaticamente.
 
-Edite `next.config.js` e descomente o `basePath`:
+### Configuração inicial no GitHub (uma vez só)
 
-```js
-const nextConfig = {
-  output: 'export',
-  basePath: '/nome-do-repo',   // ← coloque o nome exato do repositório
-  images: { unoptimized: true },
-  trailingSlash: true,
-};
-```
-
-> Se for hospedar em `username.github.io` (repo chamado `username.github.io`),
-> **não** precisa de `basePath`.
-
-### 3. Ative o GitHub Pages
-
-1. Vá em **Settings → Pages** no seu repositório
-2. Em **Source**, escolha **GitHub Actions**
-3. Faça um `push` e aguarde o workflow rodar (aba **Actions**)
-4. Acesse `https://SEU-USUARIO.github.io/NOME-DO-REPO`
+1. Vá em **Settings → Pages** no repositório
+2. Em **Source**, escolha **Deploy from a branch**
+3. Selecione a branch **`gh-pages`** e pasta **`/ (root)`**
+4. Clique **Save**
+5. Acesse `https://mateusfausto.github.io/uxecognicao/`
 
 ---
 
@@ -118,7 +110,7 @@ Coloque novos arquivos em `public/images/` e atualize o campo `image` em `data.t
 
 | Tecnologia | Uso |
 |-----------|-----|
-| Next.js 14 | Framework React com static export |
+| Next.js 13.5 | Framework React com static export |
 | Tailwind CSS | Utilitários de estilo |
 | TypeScript | Tipagem |
 | Google Fonts | Bebas Neue (display) + Inter (body) |

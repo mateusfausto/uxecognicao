@@ -16,7 +16,7 @@ module.exports = {
         blue:    '#5B9BD5',
         white:   '#F2EFE8',
         cream:   '#D9D0BF',
-        muted:   '#7A7A7A',
+        muted:   '#f0f0f0ff',
       },
       fontFamily: {
         display: ['var(--font-display)', 'sans-serif'],

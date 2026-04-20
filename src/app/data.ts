@@ -48,7 +48,7 @@ export const principles: Principle[] = [
     slug: 'visao-otimizada-para-estrutura',
     headline: 'Nossa Visão é Otimizada\npara Perceber Estrutura',
     tag: 'Gestalt',
-    image: '/uxecognicao/images/slide3.jpg',
+    image: '/uxecognicao/images/slide14.png',
     imageAlt: 'Percepção de estrutura e padrões',
     color: 'blue',
     bullets: [
@@ -71,7 +71,7 @@ export const principles: Principle[] = [
     slug: 'buscamos-e-usamos-estruturas',
     headline: 'Buscamos e\nUsamos Estruturas',
     tag: 'Organização',
-    image: '/uxecognicao/images/slide4.jpg',
+    image: '/uxecognicao/images/slide3.jpg',
     imageAlt: 'Uso de estruturas visuais',
     color: 'accent',
     bullets: [
@@ -94,7 +94,7 @@ export const principles: Principle[] = [
     slug: 'ler-nao-e-natural',
     headline: 'Ler Não\nÉ Natural',
     tag: 'Leiturabilidade',
-    image: '/uxecognicao/images/slide5.jpg',
+    image: '/uxecognicao/images/slide15.png',
     imageAlt: 'Leitura e design de texto',
     color: 'blue',
     bullets: [
@@ -148,7 +148,7 @@ export const principles: Principle[] = [
     slug: 'visao-periferica',
     headline: 'Nossa Visão Periférica\né Ruim, mas Inteligente',
     tag: 'Atenção Visual',
-    image: '/uxecognicao/images/slide7.jpg',
+    image: '/uxecognicao/images/slide16.png',
     imageAlt: 'Visão periférica e atenção',
     color: 'blue',
     bullets: [
@@ -175,7 +175,7 @@ export const principles: Principle[] = [
     slug: 'atencao-limitada-memoria-imperfeita',
     headline: 'A Atenção é Limitada\ne a Memória é Imperfeita',
     tag: 'Cognição',
-    image: '/uxecognicao/images/slide8.jpg',
+    image: '/uxecognicao/images/slide17.png',
     imageAlt: 'Atenção e memória no design',
     color: 'accent',
     bullets: [
@@ -202,7 +202,7 @@ export const principles: Principle[] = [
     slug: 'limites-atencao-pensamento-acao',
     headline: 'Limites na Atenção,\nPensamento e Ação',
     tag: 'Fluxo Cognitivo',
-    image: '/uxecognicao/images/slide9.jpg',
+    image: '/uxecognicao/images/slide18.png',
     imageAlt: 'Limites cognitivos na ação',
     color: 'blue',
     bullets: [
@@ -275,7 +275,7 @@ export const principles: Principle[] = [
     slug: 'fatores-aprendizagem',
     headline: 'Fatores que Afetam\na Aprendizagem',
     tag: 'UX Educativo',
-    image: '/uxecognicao/images/slide12.jpg',
+    image: '/uxecognicao/images/slide19.png',
     imageAlt: 'Fatores cognitivos no aprendizado',
     color: 'accent',
     bullets: [
@@ -302,7 +302,7 @@ export const principles: Principle[] = [
     slug: 'limites-de-tempo',
     headline: 'Temos\nLimites de Tempo',
     tag: 'Performance',
-    image: '/uxecognicao/images/slide13.jpg',
+    image: '/uxecognicao/images/slide20.png',
     imageAlt: 'Tempo e eficiência em interfaces',
     color: 'blue',
     bullets: [

@@ -121,9 +121,8 @@ export default function Hero() {
           className="text-muted text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-8 sm:mb-10 animate-fade-up"
           style={{ animationDelay: '0.15s' }}
         >
-          Como a mente humana influencia o design de interfaces —
           12 princípios essenciais para criar experiências que respeitam
-          a cognição humana.
+          a cognição humana na criação de interfaces visuais.
         </p>
 
         {/* CTA buttons */}
@@ -139,7 +138,7 @@ export default function Hero() {
           </button>
           <a
             href="#percebemos-o-que-esperamos"
-            className="px-8 py-3.5 rounded-xl border border-border text-cream text-sm hover:border-accent/50 hover:bg-card transition-all"
+            className="px-10 py-3.5 rounded-xl border border-border text-muted text-sm hover:border-accent/50 hover:bg-card transition-all"
           >
             Começar a Leitura
           </a>
@@ -152,8 +151,7 @@ export default function Hero() {
         >
           {[
             { num: '12', label: 'Princípios' },
-            { num: '6', label: 'Áreas de Cognição' },
-            { num: '∞', label: 'Aplicações em UX' },
+            { num: '6', label: 'Áreas de Cognição' },            
           ].map((s) => (
             <div key={s.label} className="text-center">
               <div className="font-display text-4xl text-accent">{s.num}</div>
