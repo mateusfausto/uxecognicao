@@ -21,7 +21,7 @@ export const principles: Principle[] = [
     slug: 'percebemos-o-que-esperamos',
     headline: 'Percebemos o que\nEsperamos',
     tag: 'Percepção',
-    image: '/images/slide2.jpg',
+    image: '/uxecognicao/images/slide2.jpg',
     imageAlt: 'Expectativas e percepção',
     color: 'accent',
     bullets: [
@@ -48,7 +48,7 @@ export const principles: Principle[] = [
     slug: 'visao-otimizada-para-estrutura',
     headline: 'Nossa Visão é Otimizada\npara Perceber Estrutura',
     tag: 'Gestalt',
-    image: '/images/slide3.jpg',
+    image: '/uxecognicao/images/slide3.jpg',
     imageAlt: 'Percepção de estrutura e padrões',
     color: 'blue',
     bullets: [
@@ -71,7 +71,7 @@ export const principles: Principle[] = [
     slug: 'buscamos-e-usamos-estruturas',
     headline: 'Buscamos e\nUsamos Estruturas',
     tag: 'Organização',
-    image: '/images/slide4.jpg',
+    image: '/uxecognicao/images/slide4.jpg',
     imageAlt: 'Uso de estruturas visuais',
     color: 'accent',
     bullets: [
@@ -94,7 +94,7 @@ export const principles: Principle[] = [
     slug: 'ler-nao-e-natural',
     headline: 'Ler Não\nÉ Natural',
     tag: 'Leiturabilidade',
-    image: '/images/slide5.jpg',
+    image: '/uxecognicao/images/slide5.jpg',
     imageAlt: 'Leitura e design de texto',
     color: 'blue',
     bullets: [
@@ -121,7 +121,7 @@ export const principles: Principle[] = [
     slug: 'percepcao-de-cores-limitada',
     headline: 'Nossa Percepção de\nCores é Limitada',
     tag: 'Acessibilidade',
-    image: '/images/slide6.jpg',
+    image: '/uxecognicao/images/slide6.jpg',
     imageAlt: 'Percepção visual de cores',
     color: 'accent',
     bullets: [
@@ -148,7 +148,7 @@ export const principles: Principle[] = [
     slug: 'visao-periferica',
     headline: 'Nossa Visão Periférica\né Ruim, mas Inteligente',
     tag: 'Atenção Visual',
-    image: '/images/slide7.jpg',
+    image: '/uxecognicao/images/slide7.jpg',
     imageAlt: 'Visão periférica e atenção',
     color: 'blue',
     bullets: [
@@ -175,7 +175,7 @@ export const principles: Principle[] = [
     slug: 'atencao-limitada-memoria-imperfeita',
     headline: 'A Atenção é Limitada\ne a Memória é Imperfeita',
     tag: 'Cognição',
-    image: '/images/slide8.jpg',
+    image: '/uxecognicao/images/slide8.jpg',
     imageAlt: 'Atenção e memória no design',
     color: 'accent',
     bullets: [
@@ -202,7 +202,7 @@ export const principles: Principle[] = [
     slug: 'limites-atencao-pensamento-acao',
     headline: 'Limites na Atenção,\nPensamento e Ação',
     tag: 'Fluxo Cognitivo',
-    image: '/images/slide9.jpg',
+    image: '/uxecognicao/images/slide9.jpg',
     imageAlt: 'Limites cognitivos na ação',
     color: 'blue',
     bullets: [
@@ -229,7 +229,7 @@ export const principles: Principle[] = [
     slug: 'reconhecer-facil-lembrar-dificil',
     headline: 'Reconhecer é Fácil,\nLembrar é Difícil',
     tag: 'Memória',
-    image: '/images/slide10.jpg',
+    image: '/uxecognicao/images/slide10.jpg',
     imageAlt: 'Reconhecimento vs recall na memória',
     color: 'accent',
     bullets: [
@@ -252,7 +252,7 @@ export const principles: Principle[] = [
     slug: 'aprender-com-experiencia',
     headline: 'Aprender com a Experiência\né Fácil, Resolver Problemas é Difícil',
     tag: 'Aprendizado',
-    image: '/images/slide11.jpg',
+    image: '/uxecognicao/images/slide11.jpg',
     imageAlt: 'Aprendizado por experiência em UX',
     color: 'blue',
     bullets: [
@@ -275,7 +275,7 @@ export const principles: Principle[] = [
     slug: 'fatores-aprendizagem',
     headline: 'Fatores que Afetam\na Aprendizagem',
     tag: 'UX Educativo',
-    image: '/images/slide12.jpg',
+    image: '/uxecognicao/images/slide12.jpg',
     imageAlt: 'Fatores cognitivos no aprendizado',
     color: 'accent',
     bullets: [
@@ -302,7 +302,7 @@ export const principles: Principle[] = [
     slug: 'limites-de-tempo',
     headline: 'Temos\nLimites de Tempo',
     tag: 'Performance',
-    image: '/images/slide13.jpg',
+    image: '/uxecognicao/images/slide13.jpg',
     imageAlt: 'Tempo e eficiência em interfaces',
     color: 'blue',
     bullets: [
