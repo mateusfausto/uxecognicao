@@ -92,7 +92,7 @@ export const principles: Principle[] = [
   {
     id: 4,
     slug: 'ler-nao-e-natural',
-    headline: 'Ler Não\nÉ Natural',
+    headline: 'Ler\nNão É Natural',
     tag: 'Leiturabilidade',
     image: '/uxecognicao/images/slide15.png',
     imageAlt: 'Leitura e design de texto',
@@ -119,7 +119,7 @@ export const principles: Principle[] = [
   {
     id: 5,
     slug: 'percepcao-de-cores-limitada',
-    headline: 'Nossa Percepção de\nCores é Limitada',
+    headline: 'Nossa Percepção de Cores\né Limitada',
     tag: 'Acessibilidade',
     image: '/uxecognicao/images/slide6.jpg',
     imageAlt: 'Percepção visual de cores',
@@ -173,7 +173,7 @@ export const principles: Principle[] = [
   {
     id: 7,
     slug: 'atencao-limitada-memoria-imperfeita',
-    headline: 'A Atenção é Limitada\ne a Memória é Imperfeita',
+    headline: 'A Atenção é Limitada e a\nMemória é Imperfeita',
     tag: 'Cognição',
     image: '/uxecognicao/images/slide17.png',
     imageAlt: 'Atenção e memória no design',
@@ -200,7 +200,7 @@ export const principles: Principle[] = [
   {
     id: 8,
     slug: 'limites-atencao-pensamento-acao',
-    headline: 'Limites na Atenção,\nPensamento e Ação',
+    headline: 'Limites na\nAtenção, Pensamento e Ação',
     tag: 'Fluxo Cognitivo',
     image: '/uxecognicao/images/slide18.png',
     imageAlt: 'Limites cognitivos na ação',
@@ -250,7 +250,7 @@ export const principles: Principle[] = [
   {
     id: 10,
     slug: 'aprender-com-experiencia',
-    headline: 'Aprender com a Experiência\né Fácil, Resolver Problemas é Difícil',
+    headline: 'Aprender com a Experiência é Fácil,\nResolver Problemas é Difícil',
     tag: 'Aprendizado',
     image: '/uxecognicao/images/slide11.jpg',
     imageAlt: 'Aprendizado por experiência em UX',
@@ -273,7 +273,7 @@ export const principles: Principle[] = [
   {
     id: 11,
     slug: 'fatores-aprendizagem',
-    headline: 'Fatores que Afetam\na Aprendizagem',
+    headline: 'Fatores que Afetam a\nAprendizagem',
     tag: 'UX Educativo',
     image: '/uxecognicao/images/slide19.png',
     imageAlt: 'Fatores cognitivos no aprendizado',
@@ -300,7 +300,7 @@ export const principles: Principle[] = [
   {
     id: 12,
     slug: 'limites-de-tempo',
-    headline: 'Temos\nLimites de Tempo',
+    headline: 'Temos Limites de\nTempo',
     tag: 'Performance',
     image: '/uxecognicao/images/slide20.png',
     imageAlt: 'Tempo e eficiência em interfaces',
