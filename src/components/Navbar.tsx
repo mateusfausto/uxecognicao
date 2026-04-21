@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { principles } from '../app/data';
 
 const LinkedInIcon = () => (
@@ -42,7 +42,7 @@ export default function Navbar() {
       <header
         className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
           scrolled || menuOpen
-            ? 'w-[calc(100%-1rem)] sm:w-[calc(100%-2rem)] max-w-6xl rounded-2xl bg-panel/90 backdrop-blur border border-border shadow-2xl'
+            ? 'w-[calc(100%-1rem)] sm:w-[calc(100%-2rem)] max-w-7xl rounded-2xl bg-panel/90 backdrop-blur border border-border shadow-2xl'
             : 'w-full bg-transparent'
         }`}
       >

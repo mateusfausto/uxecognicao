@@ -138,7 +138,7 @@ export default function Hero() {
           </button>
           <a
             href="#percebemos-o-que-esperamos"
-            className="px-10 py-3.5 rounded-xl border border-border text-muted text-sm hover:border-accent/50 hover:bg-card transition-all"
+            className="px-12 py-3.5 rounded-xl border border-muted text-muted text-sm hover:border-accent/50 hover:bg-card transition-all"
           >
             Começar a Leitura
           </a>
