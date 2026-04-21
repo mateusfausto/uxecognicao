@@ -135,7 +135,7 @@ export const principles: Principle[] = [
       },
       {
         title: 'Cores acessíveis',
-        desc: 'Evite tons sutis e use elementos redundantes — como ícones ou texto — para suportar informações codificadas por cor.',
+        desc: 'Evite tons sutis e use elementos redundantes, como ícones ou texto,para suportar informações codificadas apenas por cor.',
       },
       {
         title: 'Saturação e brilho em equilíbrio',
@@ -154,7 +154,7 @@ export const principles: Principle[] = [
     bullets: [
       {
         title: 'Detecção de movimento',
-        desc: 'A visão periférica detecta movimentos e mudanças, mas carece de sensibilidade para detalhes — o que é crucial para atrair atenção.',
+        desc: 'A visão periférica detecta movimentos e mudanças, mas carece de sensibilidade para detalhes, o que é crucial para atrair atenção.',
       },
       {
         title: 'Posicionamento de notificações',
@@ -185,7 +185,7 @@ export const principles: Principle[] = [
       },
       {
         title: 'Memória de curto prazo volátil',
-        desc: 'A memória de curto prazo é instável — interfaces nunca devem depender que os usuários memorizem informações entre telas.',
+        desc: 'A memória de curto prazo é instável e por isso a usabilidade das interfaces nunca deve depender que os usuários memorizem informações entre telas.',
       },
       {
         title: 'Design para visibilidade',
@@ -235,7 +235,7 @@ export const principles: Principle[] = [
     bullets: [
       {
         title: 'Reconhecimento sobre recall',
-        desc: 'O reconhecimento é cognitivamente mais simples do que recuperar algo da memória — deve ser sempre priorizado no design.',
+        desc: 'O reconhecimento é cognitivamente mais simples do que recuperar algo da memória e isso deve ser sempre priorizado no design.',
       },
       {
         title: 'Elementos visuais como âncoras',
@@ -308,7 +308,7 @@ export const principles: Principle[] = [
     bullets: [
       {
         title: 'Velocidade da interface',
-        desc: 'Usuários enfrentam restrições de tempo — interfaces devem ser rápidas e responsivas para aumentar a eficiência e reduzir a frustração.',
+        desc: 'Usuários enfrentam restrições de tempo e dessa forma, as interfaces devem ser rápidas e responsivas para aumentar a eficiência e reduzir a frustração.',
       },
       {
         title: 'Indicadores de progresso',
