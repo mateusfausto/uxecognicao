@@ -132,7 +132,7 @@ export default function Hero() {
         >
           <button
             onClick={scrollDown}
-            className="px-8 py-3.5 rounded-xl bg-accent text-bg font-semibold text-sm hover:bg-orange-500 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,120,64,0.35)]"
+            className="px-9 py-3.5 rounded-xl bg-accent text-bg font-semibold text-sm hover:bg-orange-500 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,120,64,0.35)]"
           >
             Explorar os 12 Princípios
           </button>
